@@ -10,7 +10,7 @@
     "lint": "eslint . --fix",
     "test": "jest",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d build"
   },
   "author": "Amira Abril Veliz Guardia",
   "license": "ISC",
