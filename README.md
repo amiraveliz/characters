@@ -22,4 +22,4 @@ To run unit tests please run following:
 **npm run test**
 
 ## Online demo
-To see online demo please go to following link
+To see online demo please go to following link https://amiraveliz.github.io/characters/
