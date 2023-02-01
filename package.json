@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "characters list",
   "main": "index.js",
+  "homepage": "https://amiraveliz.github.io/react-gh-pages",
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack serve --mode=development",
     "lint": "eslint . --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
   },
   "author": "Amira Abril Veliz Guardia",
   "license": "ISC",
@@ -29,6 +32,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
