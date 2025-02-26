@@ -25,3 +25,7 @@ To run project please run following:
 To run unit tests please run following:
 
 **npm run test**
+
+## Demo
+
+https://amiraveliz.github.io/characters
