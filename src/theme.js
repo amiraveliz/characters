@@ -4,8 +4,8 @@ import { CustomThemeContext } from "./contexts/custom-theme-context";
 
 const THEMES = {
   light: {
-    primary: "#9ED1D9",
-    secondary: "#F7D5A3",
+    primary: "#F7D5A3",
+    secondary: "#c2dee3",
     background: "#F7ECDC",
     title: "#F5A282",
     text: "#303030",
